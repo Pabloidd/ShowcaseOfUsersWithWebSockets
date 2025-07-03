@@ -1,0 +1,754 @@
+[
+  {
+    "id": 1,
+    "FIO": "Воробьев Даниил Артемович",
+    "post": "Frontend-разработчик",
+    "address": "Москва",
+    "age": 27,
+    "salary": 140000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 2,
+    "FIO": "Соколова Мария Ивановна",
+    "post": "Backend-разработчик",
+    "address": "Санкт-Петербург",
+    "age": 40,
+    "salary": 150000,
+    "has_inn": null,
+    "inn_number": null,
+    "haveINN": false,
+    "INN": null
+  },
+  {
+    "id": 3,
+    "FIO": "Ершов Максим Дмитриевич",
+    "post": "Data Scientist",
+    "address": "Екатеринбург",
+    "age": 32,
+    "salary": 180000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 4,
+    "FIO": "Белова Екатерина Сергеевна",
+    "post": "UI/UX дизайнер",
+    "address": "Новосибирск",
+    "age": 26,
+    "salary": 120000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 5,
+    "FIO": "Андреев Александр Олегович",
+    "post": "Тестировщик",
+    "address": "Казань",
+    "age": 28,
+    "salary": 90000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 6,
+    "FIO": "Попова Анастасия Владимировна",
+    "post": "Аналитик",
+    "address": "Нижний Новгород",
+    "age": 30,
+    "salary": 110000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 7,
+    "FIO": "Жуков Иван Михайлович",
+    "post": "Project Manager",
+    "address": "Челябинск",
+    "age": 35,
+    "salary": 160000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 8,
+    "FIO": "Зайцева Ольга Андреевна",
+    "post": "HR-менеджер",
+    "address": "Самара",
+    "age": 29,
+    "salary": 80000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 9,
+    "FIO": "Иванов Павел Сергеевич",
+    "post": "DevOps Engineer",
+    "address": "Ростов-на-Дону",
+    "age": 33,
+    "salary": 170000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 10,
+    "FIO": "Ларина Елена Олеговна",
+    "post": "Бизнес-аналитик",
+    "address": "Оренбург",
+    "age": 31,
+    "salary": 75000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 11,
+    "FIO": "Козлов Роман Игоревич",
+    "post": "Системный администратор",
+    "address": "Уфа",
+    "age": 34,
+    "salary": 130000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 12,
+    "FIO": "Кузьмина Ирина Александровна",
+    "post": "SEO-специалист",
+    "address": "Красноярск",
+    "age": 25,
+    "salary": 85000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 13,
+    "FIO": "Михайлов Антон Владимирович",
+    "post": "SMM-менеджер",
+    "address": "Воронеж",
+    "age": 28,
+    "salary": 95000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 14,
+    "FIO": "Николаева Юлия Дмитриевна",
+    "post": "Контент-менеджер",
+    "address": "Пермь",
+    "age": 31,
+    "salary": 70000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 15,
+    "FIO": "Орлов Андрей Юрьевич",
+    "post": "Финансовый аналитик",
+    "address": "Волгоград",
+    "age": 36,
+    "salary": 145000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 16,
+    "FIO": "Петрова Светлана Алексеевна",
+    "post": "Юрист",
+    "address": "Саратов",
+    "age": 27,
+    "salary": 100000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 17,
+    "FIO": "Романов Сергей Николаевич",
+    "post": "Бухгалтер",
+    "address": "Тюмень",
+    "age": 32,
+    "salary": 80000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 18,
+    "FIO": "Смирнов Алексей Игоревич",
+    "post": "Менеджер по продажам",
+    "address": "Иркутск",
+    "age": 29,
+    "salary": 115000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 19,
+    "FIO": "Тимофеева Елена Владимировна",
+    "post": "Переводчик",
+    "address": "Хабаровск",
+    "age": 30,
+    "salary": 90000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 20,
+    "FIO": "Ульянов Дмитрий Андреевич",
+    "post": "Архитектор ПО",
+    "address": "Владивосток",
+    "age": 34,
+    "salary": 200000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 21,
+    "FIO": "Федорова Наталья Сергеевна",
+    "post": "Специалист по информационной безопасности",
+    "address": "Ярославль",
+    "age": 26,
+    "salary": 155000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 22,
+    "FIO": "Харитонов Михаил Юрьевич",
+    "post": "Аналитик бизнес-процессов",
+    "address": "Махачкала",
+    "age": 31,
+    "salary": 125000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 23,
+    "FIO": "Цветкова Александра Павловна",
+    "post": "Руководитель отдела маркетинга",
+    "address": "Томск",
+    "age": 33,
+    "salary": 185000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 24,
+    "FIO": "Чернов Кирилл Александрович",
+    "post": "Администратор баз данных",
+    "address": "Иваново",
+    "age": 28,
+    "salary": 140000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 25,
+    "FIO": "Шевченко Мария Васильевна",
+    "post": "Технический писатель",
+    "address": "Тверь",
+    "age": 27,
+    "salary": 95000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 26,
+    "FIO": "Щербаков Денис Игоревич",
+    "post": "Инженер-программист",
+    "address": "Курск",
+    "age": 35,
+    "salary": 165000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 27,
+    "FIO": "Эрлих Анна Михайловна",
+    "post": "Дизайнер интерьеров",
+    "address": "Ставрополь",
+    "age": 30,
+    "salary": 110000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 28,
+    "FIO": "Юсупов Руслан Рамилевич",
+    "post": "Менеджер по работе с клиентами",
+    "address": "Белгород",
+    "age": 29,
+    "salary": 88000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 29,
+    "FIO": "Яковлев Антон Павлович",
+    "post": "Специалист технической поддержки",
+    "address": "Смоленск",
+    "age": 32,
+    "salary": 72000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 30,
+    "FIO": "Александров Олег Николаевич",
+    "post": "Системный аналитик",
+    "address": "Владимир",
+    "age": 31,
+    "salary": 135000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 31,
+    "FIO": "Боброва Ксения Алексеевна",
+    "post": "Редактор",
+    "address": "Калуга",
+    "age": 25,
+    "salary": 78000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 32,
+    "FIO": "Васильев Игорь Сергеевич",
+    "post": "Веб-разработчик",
+    "address": "Орел",
+    "age": 28,
+    "salary": 142000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 33,
+    "FIO": "Григорьева Анна Петровна",
+    "post": "Тестировщик ПО",
+    "address": "Брянск",
+    "age": 29,
+    "salary": 89000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 34,
+    "FIO": "Дмитриев Сергей Андреевич",
+    "post": "Администратор сети",
+    "address": "Тула",
+    "age": 33,
+    "salary": 118000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 35,
+    "FIO": "Егорова Елена Васильевна",
+    "post": "Data Engineer",
+    "address": "Липецк",
+    "age": 30,
+    "salary": 163000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 36,
+    "FIO": "Журавлев Максим Олегович",
+    "post": "Руководитель проектов",
+    "address": "Пенза",
+    "age": 36,
+    "salary": 182000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 37,
+    "FIO": "Захарова Ирина Дмитриевна",
+    "post": "Специалист по маркетингу",
+    "address": "Рязань",
+    "age": 27,
+    "salary": 97000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 38,
+    "FIO": "Игнатов Алексей Сергеевич",
+    "post": "Аналитик данных",
+    "address": "Кострома",
+    "age": 32,
+    "salary": 139000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 39,
+    "FIO": "Кириллов Михаил Павлович",
+    "post": "Разработчик игр",
+    "address": "Курган",
+    "age": 29,
+    "salary": 158000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 40,
+    "FIO": "Ларионова Екатерина Игоревна",
+    "post": "Графический дизайнер",
+    "address": "Сыктывкар",
+    "age": 26,
+    "salary": 102000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 41,
+    "FIO": "Макаров Артем Андреевич",
+    "post": "Python-разработчик",
+    "address": "Ижевск",
+    "age": 28,
+    "salary": 145000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 42,
+    "FIO": "Назарова Ольга Юрьевна",
+    "post": "Специалист по SEO",
+    "address": "Йошкар-Ола",
+    "age": 31,
+    "salary": 92000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 43,
+    "FIO": "Осипов Дмитрий Владимирович",
+    "post": "Менеджер по рекламе",
+    "address": "Чебоксары",
+    "age": 34,
+    "salary": 115000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 44,
+    "FIO": "Панова Анастасия Михайловна",
+    "post": "Специалист по обучению",
+    "address": "Саранск",
+    "age": 27,
+    "salary": 76000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 45,
+    "FIO": "Родионов Андрей Олегович",
+    "post": "Инженер техподдержки",
+    "address": "Сургут",
+    "age": 30,
+    "salary": 85000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 46,
+    "FIO": "Савельева Марина Петровна",
+    "post": "Руководитель HR",
+    "address": "Тюмень",
+    "age": 35,
+    "salary": 155000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 47,
+    "FIO": "Тарасов Игорь Николаевич",
+    "post": "Java-разработчик",
+    "address": "Новый Уренгой",
+    "age": 33,
+    "salary": 175000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 48,
+    "FIO": "Уварова Светлана Андреевна",
+    "post": "Веб-дизайнер",
+    "address": "Норильск",
+    "age": 25,
+    "salary": 105000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 49,
+    "FIO": "Филиппов Роман Дмитриевич",
+    "post": "C++ разработчик",
+    "address": "Череповец",
+    "age": 29,
+    "salary": 165000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 50,
+    "FIO": "Холодова Юлия Васильевна",
+    "post": "Frontend Engineer",
+    "address": "Вологда",
+    "age": 31,
+    "salary": 150000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 51,
+    "FIO": "Чайкин Алексей Павлович",
+    "post": "Руководитель разработки",
+    "address": "Архангельск",
+    "age": 36,
+    "salary": 200000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 52,
+    "FIO": "Шарова Ксения Юрьевна",
+    "post": "Менеджер по продукту",
+    "address": "Мурманск",
+    "age": 27,
+    "salary": 120000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 53,
+    "FIO": "Щукин Александр Игоревич",
+    "post": "Тестировщик автоматизации",
+    "address": "Петрозаводск",
+    "age": 32,
+    "salary": 110000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 54,
+    "FIO": "Эскина Анастасия Константиновна",
+    "post": "Дизайнер интерфейсов",
+    "address": "Калининград",
+    "age": 28,
+    "salary": 95000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 55,
+    "FIO": "Борисов Павел Андреевич",
+    "post": "Data Scientist",
+    "address": "Симферополь",
+    "age": 34,
+    "salary": 170000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 56,
+    "FIO": "Виноградова Екатерина Васильевна",
+    "post": "Бизнес-аналитик",
+    "address": "Севастополь",
+    "age": 26,
+    "salary": 100000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 57,
+    "FIO": "Гаврилов Максим Юрьевич",
+    "post": "Руководитель отдела продаж",
+    "address": "Краснодар",
+    "age": 30,
+    "salary": 180000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 58,
+    "FIO": "Денисова Ольга Дмитриевна",
+    "post": "Архитектор решений",
+    "address": "Сочи",
+    "age": 33,
+    "salary": 220000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 59,
+    "FIO": "Ермилов Александр Сергеевич",
+    "post": "Специалист по Big Data",
+    "address": "Геленджик",
+    "age": 29,
+    "salary": 190000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 60,
+    "FIO": "Жукова Ирина Михайловна",
+    "post": "Таргетолог",
+    "address": "Анапа",
+    "age": 27,
+    "salary": 80000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 61,
+    "FIO": "Зайцев Юрий Петрович",
+    "post": "Специалист по SMM",
+    "address": "Ейск",
+    "age": 35,
+    "salary": 90000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 62,
+    "FIO": "Ковалев Павел Игоревич",
+    "post": "Специалист по контекстной рекламе",
+    "address": "Майкоп",
+    "age": 32,
+    "salary": 105000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 63,
+    "FIO": "Лапина Ксения Андреевна",
+    "post": "Копирайтер",
+    "address": "Черкесск",
+    "age": 28,
+    "salary": 75000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 64,
+    "FIO": "Миронов Андрей Дмитриевич",
+    "post": "Редактор",
+    "address": "Ставрополь",
+    "age": 31,
+    "salary": 85000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 65,
+    "FIO": "Новикова Анастасия Олеговна",
+    "post": "Оператор call-центра",
+    "address": "Владикавказ",
+    "age": 25,
+    "salary": 65000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 66,
+    "FIO": "Орлов Олег Михайлович",
+    "post": "Менеджер по работе с партнерами",
+    "address": "Нальчик",
+    "age": 34,
+    "salary": 125000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 67,
+    "FIO": "Полякова Светлана Владимировна",
+    "post": "Переводчик",
+    "address": "Грозный",
+    "age": 29,
+    "salary": 95000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 68,
+    "FIO": "Руденко Игорь Сергеевич",
+    "post": "Логист",
+    "address": "Магас",
+    "age": 33,
+    "salary": 115000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 69,
+    "FIO": "Сидорова Елена Алексеевна",
+    "post": "Экономист",
+    "address": "Кисловодск",
+    "age": 27,
+    "salary": 90000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 70,
+    "FIO": "Тихонов Дмитрий Юрьевич",
+    "post": "Маркетолог-аналитик",
+    "address": "Пятигорск",
+    "age": 30,
+    "salary": 100000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 71,
+    "FIO": "Устинова Екатерина Павловна",
+    "post": "Менеджер по персоналу",
+    "address": "Ессентуки",
+    "age": 36,
+    "salary": 130000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 72,
+    "FIO": "Федоров Антон Олегович",
+    "post": "Инженер по охране труда",
+    "address": "Ростов-на-Дону",
+    "age": 31,
+    "salary": 80000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 73,
+    "FIO": "Харитонова Мария Андреевна",
+    "post": "Руководитель отдела закупок",
+    "address": "Таганрог",
+    "age": 34,
+    "salary": 145000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 74,
+    "FIO": "Цветков Сергей Николаевич",
+    "post": "Финансовый директор",
+    "address": "Шахты",
+    "age": 33,
+    "salary": 250000,
+    "has_inn": null,
+    "inn_number": null
+  },
+  {
+    "id": 75,
+    "FIO": "Чернышева Анна Васильевна",
+    "post": "Юристконсульт",
+    "address": "Новочеркасск",
+    "age": 26,
+    "salary": 110000,
+    "has_inn": null,
+    "inn_number": null
+  }
+]

@@ -1,0 +1,51 @@
+.usersTableContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: auto;
+}
+
+@media (max-width: 700px){
+    .usersTable__Th{
+        font-size: 1rem;
+    }
+}
+
+.usersTable {
+    flex: 0.9;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 0 2px black;
+}
+
+.usersTable__Th{
+    position: sticky;
+    top: 0;
+    background: #d6d6d6;
+    border: 1px solid black;
+}
+
+@media (min-width: 700px) {
+    .usersTable__Th {
+        font-size: 1.3rem;
+    }
+    .usersTable__element{
+        font-size: 1.25rem;
+    }
+}
+
+.usersTable__element{
+    padding: 5px;
+    text-decoration: none;
+}
+
+.usersTable__element tr:nth-child(even)  {
+    background-color: #f0f0f0;
+}
+
+.usersTable__element tr td:nth-child(2):hover  {
+    color: #2478ff;
+    cursor: pointer;
+}

@@ -1,0 +1,63 @@
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    max-height: 70vh;
+    overflow: auto;
+    scrollbar-width: thin;
+}
+
+@media (max-width: 800px) {
+    .mainContent {
+        max-height: 52vh;
+    }
+}
+
+
+.mainContent__button{
+    background-image: url("../../assets/images/settings_icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.mainContent__text{
+    font-size: 1.25rem;
+}
+
+.mainContent__button:hover{
+    cursor: pointer;
+    rotate: 90deg;
+    transform: scale(1.25);
+}
+
+.mainContent__helpingContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3px;
+    border-bottom: 1px solid #e1e1e1;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    opacity: 0; /* Начальная прозрачность */
+    pointer-events: none; /* Клики сквозь оверлей, когда он невидим */
+    transition: opacity 0.3s linear;
+}
+
+.overlay.active {
+    opacity: 1; /* Полная видимость */
+    pointer-events: auto; /* Клики работают */
+}
