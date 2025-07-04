@@ -6,15 +6,12 @@ const { createServer } = require('http');
 
 const app = express();
 const PORT = 3001;
-
 const USERS_PER_PART = 15;
 
 app.use(express.json());
 
 const server = createServer(app);
-const wsServer = new WebSocketServer({
-    server: server,
-});
+const wsServer = new WebSocketServer({ server: server });
 
 wsServer.on('connection', ws => {
     console.log('Client connected');
@@ -44,6 +41,11 @@ wsServer.on('connection', ws => {
     });
 });
 
+/**
+ * Обрабатывает запрос на получение списка пользователей.
+ * @param {WebSocket} ws - WebSocket-соединение с клиентом.
+ * @param {object} payload - Полезная нагрузка запроса, содержащая параметры запроса.
+ */
 function handleGetUsers(ws, payload) {
     const start = parseInt(payload.start);
 
@@ -71,8 +73,14 @@ function handleGetUsers(ws, payload) {
     });
 }
 
+/**
+ * Обрабатывает запрос на обновление данных пользователя.
+ * @param {WebSocket} ws - WebSocket-соединение с клиентом.
+ • @param {object} payload - Полезная нагрузка запроса, содержащая данные пользователя для обновления.
+ */
 function handleUpdateUser(ws, payload) {
     const userId = parseInt(payload.id);
+
     fs.readFile('data/Users.json', 'utf8', (err, data) => {
         if (err) {
             console.error(err);

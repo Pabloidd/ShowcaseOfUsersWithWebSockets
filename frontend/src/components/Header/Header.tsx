@@ -3,6 +3,9 @@ import logo from '../../assets/images/logo_vault_boy.svg';
 import pablosProductLogo from '../../assets/images/Pablo\'s_product.png';
 import styles from './Header.module.css';
 
+/**
+ * компонент шапки
+ */
 const Header: React.FC = () => {
     return (
         <header className={styles.header}>

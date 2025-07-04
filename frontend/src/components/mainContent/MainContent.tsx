@@ -3,9 +3,16 @@ import style from "./mainContent.module.css";
 import {useState} from "react";
 import ToolWindow from "../ToolWindow/ToolWindow";
 
+/**
+ * Компонент MainContent - основное содержимое страницы.
+ * @returns {JSX.Element}
+ */
 export default function MainContent() {
     const [toolWindowVisibility, setToolVisibility] = useState(false);
 
+    /**
+     * Переключает видимость компонента ToolWindow.
+     */
     const swapToolWindowVisibility = () => {
         setToolVisibility(!toolWindowVisibility);
     }

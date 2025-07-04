@@ -16,6 +16,10 @@ interface User {
     INN: number | null;
 }
 
+/**
+ * Компонент UsersTable для отображения таблицы пользователей.
+ * @returns {JSX.Element}
+ */
 export default function UsersTable() {
     const [loadedAllData, setLoadedAllData] = useState(false);
     const [dataIsLoading, setDataIsLoading] = useState(false);
@@ -101,6 +105,10 @@ export default function UsersTable() {
         };
     }, []);
 
+    /**
+     * Загружает часть пользователей с сервера.
+     * @param {number} part - Номер части пользователей для загрузки.
+     */
     const loadPartOfUsers = (part: number) => {
         if (dataIsLoading || loadedAllData || !ws.current) return;
 
@@ -112,6 +120,10 @@ export default function UsersTable() {
         }));
     };
 
+    /**
+     * Определяет, нужно ли загружать новую часть данных при прокрутке таблицы.
+     * @returns {boolean}
+     */
     const needToLoadNewData = () => {
         if (!tableContainerRef.current) return false;
 
@@ -141,14 +153,25 @@ export default function UsersTable() {
         }
     }, [currentUsersPart, loadedAllData, dataIsLoading]);
 
+    /**
+     * Обработчик клика по пользователю в таблице.
+     * @param {User} user - Объект пользователя, по которому кликнули.
+     */
     const handleUserClick = (user: User) => {
         setEditingUser(user);
     };
 
+    /**
+     * Обработчик закрытия окна редактирования пользователя.
+     */
     const handleCloseEditWindow = () => {
         setEditingUser(null);
     };
 
+    /**
+     * Обработчик сохранения данных пользователя.
+     * @param {any} userData - Данные пользователя для сохранения.
+     */
     const handleSaveUser = async (userData: any) => {
         if (!ws.current) {
             console.error("WebSocket is not connected.");

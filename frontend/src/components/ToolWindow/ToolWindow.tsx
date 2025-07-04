@@ -23,6 +23,11 @@ const defaultColumnsVisibility: ColumnsVisibility = {
     salary: true
 };
 
+/**
+ * Компонент ToolWindow для настройки видимости столбцов таблицы.
+ * @param {ToolWindowProps} props - Пропсы компонента.
+ * @returns {JSX.Element}
+ */
 export default function ToolWindow({ onClose }: ToolWindowProps) {
 
     const [columnsVisibility, setColumnsVisibility] = useState<ColumnsVisibility>(() => {
@@ -38,11 +43,18 @@ export default function ToolWindow({ onClose }: ToolWindowProps) {
         return defaultColumnsVisibility;
     });
 
+    /**
+     * Сохраняет данные о видимости столбцов в localStorage.
+     */
     const saveColumnsVisibilityToLocalStorage = () => {
         const JsonColumnsVisibility = JSON.stringify(columnsVisibility);
         localStorage.setItem("columnsVisibility", JsonColumnsVisibility);
     }
 
+    /**
+     * Изменяет видимость указанного столбца.
+     * @param {keyof ColumnsVisibility} name - Имя столбца, видимость которого нужно изменить.
+     */
     const changeColumnVisibility = (name: keyof ColumnsVisibility) => {
         setColumnsVisibility(prevState => ({
             ...prevState,
